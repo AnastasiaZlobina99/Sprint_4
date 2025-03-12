@@ -46,7 +46,7 @@ public class OrderScooterTest {
     public DriverRule factory = new DriverRule();
 
     @Test //тест для нижней кнопки
-    public void checkingOrderScooterBottomButton() throws Exception {
+    public void checkingOrderScooterBottomButton() {
 
         WebDriver driver = factory.getDriver();
         var mainPage = new MainPage(driver);
@@ -62,7 +62,7 @@ public class OrderScooterTest {
     }
 
     @Test //тест для верхней кнопки
-    public void checkingOrderScooterTopButton() throws Exception {
+    public void checkingOrderScooterTopButton() {
 
         WebDriver driver = factory.getDriver();
         var mainPage = new MainPage(driver);

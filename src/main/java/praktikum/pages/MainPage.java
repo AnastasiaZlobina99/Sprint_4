@@ -20,7 +20,7 @@ public class MainPage {
     // Локатор для кнопки "Заказать" в верхней части страницы
     private final By orderTopButton = By.className("Button_Button__ra12g");
     // Локатор для кнопки "Заказать" в нижней части страницы
-    private final By orderBottomButton = By.className("Home_FinishButton__1_cWm");;
+    private final By orderBottomButton = By.className("Home_FinishButton__1_cWm");
 
     //конструктор класса MainPage
     public MainPage(WebDriver driver) {
