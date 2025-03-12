@@ -22,7 +22,7 @@ public class DriverRule extends ExternalResource {
         driver.quit();
     }
 
-    public void initDriver() throws Exception {
+    public void initDriver(){
         if ("firefox".equalsIgnoreCase(System.getProperty("browser"))) {
             startUpFirefox();
         } else {
